@@ -7,12 +7,12 @@
 //                                                                                                      // 
 //                                         Ｖ：１．０．１                                                 // 
 //                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
+//                     ████████╗██╗  ██╗ ██████╗ ██████╗     ███╗   ███╗██████╗                 //       
+//                    ╚══██╔══╝██║  ██║██╔═══██╗██╔══██╗    ████╗ ████║██╔══██╗                //  
+//                        ██║   ███████║██║   ██║██████╔╝    ██╔████╔██║██║  ██║                //    
+//                        ██║   ██╔══██║██║   ██║██╔══██╗    ██║╚██╔╝██║██║  ██║                //     
+//                        ██║   ██║  ██║╚██████╔╝██║  ██║    ██║ ╚═╝ ██║██████╔╝                //   
+//                        ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                   //  
 //                                                                                                      //
 //                                                                                                      //
 //                                                                                                      //
@@ -21,15 +21,15 @@
 CURRENTLY RUNNING ON BETA VERSION!!
 *
    * @project_name : baileys-qr
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/SuhailTechInfo
+   * @author : Naveed Dogar 
+   * @youtube : https://www.youtube.com/Technical
    * @description : Get baileys qr, where session id Converted into 'base64'. You can change it According to your needs.
    * @version 1.0.0
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
-   * © 2023 Suhail-Md.
+   * Created By Naveed Dogar.
+   * © 2023 Thor-Md.
 */
 
 const fs   = require("fs-extra");
@@ -42,18 +42,18 @@ if (fs.existsSync('./auth_info_baileys')) {
   require('child_process').exec('rm -rf auth_info_baileys')
   console.log('\nPlease Wait... Removing Cache files');
   setTimeout(() => {   console.log(' ')    }, 100);
-  setTimeout(() => {   console.log('Q')    }, 300);
-  setTimeout(() => {   console.log('R')    }, 500);
-  setTimeout(() => {   console.log(' ')    }, 700);
-  setTimeout(() => {   console.log('B')    }, 900);
-  setTimeout(() => {   console.log('Y')    }, 1100);
-  setTimeout(() => {   console.log(' ')    }, 1300);
-  setTimeout(() => {   console.log('S')    }, 1500);
-  setTimeout(() => {   console.log('U')    }, 1700);
-  setTimeout(() => {   console.log('H')    }, 1900);
-  setTimeout(() => {   console.log('A')    }, 2100);
-  setTimeout(() => {   console.log('I')    }, 2300);
-  setTimeout(() => {   console.log('L')    }, 2500);
+  setTimeout(() => {   console.log('T')    }, 300);
+  setTimeout(() => {   console.log('H')    }, 500);
+  setTimeout(() => {   console.log('O')    }, 700);
+  setTimeout(() => {   console.log('R')    }, 900);
+  setTimeout(() => {   console.log(' ')    }, 1100);
+  setTimeout(() => {   console.log('M')    }, 1300);
+  setTimeout(() => {   console.log('D')    }, 1500);
+  setTimeout(() => {   console.log(' ')    }, 1700);
+  setTimeout(() => {   console.log('Q')    }, 1900);
+  setTimeout(() => {   console.log('R')    }, 2100);
+  setTimeout(() => {   console.log(' ')    }, 2300);
+  setTimeout(() => {   console.log(' ')    }, 2500);
   setTimeout(() => {   console.log(' ')    }, 2700);
   setTimeout(() => {   console.log('Cache Cleared..!\nRun The Script Again')    }, 2900);
   setTimeout(() => {   process.exit()      }, 3000)
@@ -61,7 +61,7 @@ if (fs.existsSync('./auth_info_baileys')) {
 setTimeout(() => {
   const { default: makeWASocket, useMultiFileAuthState, Browsers, delay, makeInMemoryStore, } = require("@sampandey001/baileys");
   const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
-  async function sᴜʜᴀɪʟ_ʙᴀɪʟᴇʏs_ǫʀ() {
+  async function GENRATOR_ʙᴀɪʟᴇʏs_ǫʀ() {
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys')
     try {
       let session = makeWASocket({ printQRInTerminal: true, logger: pino({ level: "silent" }), browser: Browsers.macOS("Desktop"), auth: state });
@@ -86,14 +86,14 @@ Thanks.
 `)   
 
 let cc = `╔════◇
-║『 *THANKS FOR CHOOSING SUHAIL-MD* 』
+║『 *THANKS FOR CHOOSING THOR-MD* 』
 ║ _You complete first step to making Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║ *1.Github:* _github.com/suhailtechinfo_
-║ *2.Ytube:* _youtube.com/suhailtechinfo_
-║ *3.Owner:* _https://wa.me/923184474176_
+║ *1.Github:* _github.com/Saad143ss_
+║ *2.Youtube:* _youtube.com/saadibrahim_900_
+║ *3.Grouplink:* _https://chat.whatsapp.com/Fd08osh2TvX9WekceXUfuz_
 ║ *Note :*_Don't provide your SESSION_ID to_
 ║ _anyone otherwise that can access chats_
 ╚════════════════════════╝
@@ -108,5 +108,5 @@ let cc = `╔════◇
       });
     } catch (err) {console.log(err);await require('child_process').exec('rm -rf auth_info_baileys');process.exit(1);}
   }
-  sᴜʜᴀɪʟ_ʙᴀɪʟᴇʏs_ǫʀ();
+  Generator_ʙᴀɪʟᴇʏs_ǫʀ();
 }, 3000)
